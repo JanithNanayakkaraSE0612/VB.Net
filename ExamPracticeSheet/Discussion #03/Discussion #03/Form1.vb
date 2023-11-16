@@ -1,5 +1,5 @@
 ﻿Public Class frmSalary
-    Dim bs, oh, otr, all1, all2, net As Single
+    Dim bs, oh, otr, all1, all2, otamt, net As Single
     Dim sex As String
     Private Sub TextBox2_TextChanged(sender As Object, e As EventArgs) Handles txtOH.TextChanged
 
@@ -41,8 +41,11 @@
         Else
             all2 = 1000
         End If
-        all1 = Val(txtAllow1.Text) Then
-            all2 = Val(txtAllow2.Text)
-        net = Val(txtNetSal.Text)
+        otamt = oh * otr
+        txtOR.Text = otr
+        txtAllow1.Text = all1
+        txtAllow2.Text = all2
+        net = bs + otamt + all1 + all2
+        txtNetSal.Text = net
     End Sub
 End Class
