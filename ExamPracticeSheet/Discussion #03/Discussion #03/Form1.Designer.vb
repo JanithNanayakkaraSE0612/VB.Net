@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
-Partial Class Form1
+Partial Class frmSalary
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -197,10 +197,11 @@ Partial Class Form1
         Label7.TabIndex = 16
         Label7.Text = "Net Salary"
         ' 
-        ' Form1
+        ' frmSalary
         ' 
         AutoScaleDimensions = New SizeF(8F, 20F)
         AutoScaleMode = AutoScaleMode.Font
+        BackColor = SystemColors.GradientActiveCaption
         ClientSize = New Size(800, 450)
         Controls.Add(Label7)
         Controls.Add(Label6)
@@ -219,7 +220,7 @@ Partial Class Form1
         Controls.Add(btnExit)
         Controls.Add(btnCalculate)
         Controls.Add(btnClear)
-        Name = "Form1"
+        Name = "frmSalary"
         Text = "Basic Salary"
         ResumeLayout(False)
         PerformLayout()

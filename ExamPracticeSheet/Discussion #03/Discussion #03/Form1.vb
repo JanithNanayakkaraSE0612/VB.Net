@@ -1,4 +1,4 @@
-﻿Public Class Form1
+﻿Public Class frmSalary
     Private Sub TextBox2_TextChanged(sender As Object, e As EventArgs) Handles txtOH.TextChanged
 
     End Sub
