@@ -46,7 +46,7 @@ Partial Class Form1
         btnClear.Font = New Font("Segoe UI", 10.8F, FontStyle.Regular, GraphicsUnit.Point)
         btnClear.Location = New Point(526, 112)
         btnClear.Name = "btnClear"
-        btnClear.Size = New Size(94, 29)
+        btnClear.Size = New Size(94, 35)
         btnClear.TabIndex = 0
         btnClear.Text = "Clear"
         btnClear.UseVisualStyleBackColor = True
@@ -54,9 +54,9 @@ Partial Class Form1
         ' btnCalculate
         ' 
         btnCalculate.Font = New Font("Segoe UI", 10.8F, FontStyle.Regular, GraphicsUnit.Point)
-        btnCalculate.Location = New Point(526, 215)
+        btnCalculate.Location = New Point(526, 203)
         btnCalculate.Name = "btnCalculate"
-        btnCalculate.Size = New Size(94, 29)
+        btnCalculate.Size = New Size(94, 41)
         btnCalculate.TabIndex = 1
         btnCalculate.Text = "Calculate"
         btnCalculate.UseVisualStyleBackColor = True
@@ -66,7 +66,7 @@ Partial Class Form1
         btnExit.Font = New Font("Segoe UI", 10.8F, FontStyle.Regular, GraphicsUnit.Point)
         btnExit.Location = New Point(526, 310)
         btnExit.Name = "btnExit"
-        btnExit.Size = New Size(94, 29)
+        btnExit.Size = New Size(94, 37)
         btnExit.TabIndex = 2
         btnExit.Text = "Exit"
         btnExit.UseVisualStyleBackColor = True
