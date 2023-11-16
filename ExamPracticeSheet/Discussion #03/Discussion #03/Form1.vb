@@ -1,4 +1,6 @@
 ﻿Public Class frmSalary
+    Dim bs, oh, otr, all1, all2, net As Single
+    Dim sex As String
     Private Sub TextBox2_TextChanged(sender As Object, e As EventArgs) Handles txtOH.TextChanged
 
     End Sub
@@ -19,5 +21,22 @@
         txtAllow1.Text = ""
         txtAllow2.Text = ""
         txtNetSal.Text = ""
+    End Sub
+
+    Private Sub btnCalculate_Click(sender As Object, e As EventArgs) Handles btnCalculate.Click
+        bs = Val(txtBasicSalary.Text)
+        oh = Val(txtOH.Text)
+        sex = txtSex.Text
+        otr = bs / 240
+        If bs > 40000 Then
+            all1 = bs * 10 / 100
+        ElseIf bs > 25000 Then
+            all1 = bs * 5 / 100
+        Else
+            all1 = 500
+        End If
+        all1 = Val(txtAllow1.Text)
+        all2 = Val(txtAllow2.Text)
+        net = Val(txtNetSal.Text)
     End Sub
 End Class
