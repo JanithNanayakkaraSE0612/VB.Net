@@ -25,8 +25,8 @@ Partial Class Form1
         Button1 = New Button()
         Button2 = New Button()
         Button3 = New Button()
-        TextBox1 = New TextBox()
-        TextBox2 = New TextBox()
+        txtBasicSalary = New TextBox()
+        txtOH = New TextBox()
         TextBox3 = New TextBox()
         TextBox4 = New TextBox()
         TextBox5 = New TextBox()
@@ -48,6 +48,7 @@ Partial Class Form1
         Button1.Name = "Button1"
         Button1.Size = New Size(94, 29)
         Button1.TabIndex = 0
+        Button1.Text = "Clear"
         Button1.UseVisualStyleBackColor = True
         ' 
         ' Button2
@@ -70,21 +71,21 @@ Partial Class Form1
         Button3.Text = "Button3"
         Button3.UseVisualStyleBackColor = True
         ' 
-        ' TextBox1
+        ' txtBasicSalary
         ' 
-        TextBox1.Font = New Font("Segoe UI", 10.8F, FontStyle.Regular, GraphicsUnit.Point)
-        TextBox1.Location = New Point(277, 54)
-        TextBox1.Name = "TextBox1"
-        TextBox1.Size = New Size(125, 31)
-        TextBox1.TabIndex = 3
+        txtBasicSalary.Font = New Font("Segoe UI", 10.8F, FontStyle.Regular, GraphicsUnit.Point)
+        txtBasicSalary.Location = New Point(277, 54)
+        txtBasicSalary.Name = "txtBasicSalary"
+        txtBasicSalary.Size = New Size(125, 31)
+        txtBasicSalary.TabIndex = 3
         ' 
-        ' TextBox2
+        ' txtOH
         ' 
-        TextBox2.Font = New Font("Segoe UI", 10.8F, FontStyle.Regular, GraphicsUnit.Point)
-        TextBox2.Location = New Point(277, 101)
-        TextBox2.Name = "TextBox2"
-        TextBox2.Size = New Size(125, 31)
-        TextBox2.TabIndex = 4
+        txtOH.Font = New Font("Segoe UI", 10.8F, FontStyle.Regular, GraphicsUnit.Point)
+        txtOH.Location = New Point(277, 101)
+        txtOH.Name = "txtOH"
+        txtOH.Size = New Size(125, 31)
+        txtOH.TabIndex = 4
         ' 
         ' TextBox3
         ' 
@@ -213,13 +214,13 @@ Partial Class Form1
         Controls.Add(TextBox5)
         Controls.Add(TextBox4)
         Controls.Add(TextBox3)
-        Controls.Add(TextBox2)
-        Controls.Add(TextBox1)
+        Controls.Add(txtOH)
+        Controls.Add(txtBasicSalary)
         Controls.Add(Button3)
         Controls.Add(Button2)
         Controls.Add(Button1)
         Name = "Form1"
-        Text = "Form1"
+        Text = "Basic Salary"
         ResumeLayout(False)
         PerformLayout()
     End Sub
@@ -227,8 +228,8 @@ Partial Class Form1
     Friend WithEvents Button1 As Button
     Friend WithEvents Button2 As Button
     Friend WithEvents Button3 As Button
-    Friend WithEvents TextBox1 As TextBox
-    Friend WithEvents TextBox2 As TextBox
+    Friend WithEvents txtBasicSalary As TextBox
+    Friend WithEvents txtOH As TextBox
     Friend WithEvents TextBox3 As TextBox
     Friend WithEvents TextBox4 As TextBox
     Friend WithEvents TextBox5 As TextBox

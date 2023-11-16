@@ -1,0 +1,6 @@
+C:\Project\VB.Net\ExamPracticeSheet\ExamPracticeSheet\obj\Debug\net6.0-windows\ExamPracticeSheet.Payment.resources
+C:\Project\VB.Net\ExamPracticeSheet\ExamPracticeSheet\obj\Debug\net6.0-windows\ExamPracticeSheet.vbproj.GenerateResource.cache
+C:\Project\VB.Net\ExamPracticeSheet\ExamPracticeSheet\obj\Debug\net6.0-windows\ExamPracticeSheet.GeneratedMSBuildEditorConfig.editorconfig
+C:\Project\VB.Net\ExamPracticeSheet\ExamPracticeSheet\obj\Debug\net6.0-windows\ExamPracticeSheet.AssemblyInfoInputs.cache
+C:\Project\VB.Net\ExamPracticeSheet\ExamPracticeSheet\obj\Debug\net6.0-windows\ExamPracticeSheet.AssemblyInfo.vb
+C:\Project\VB.Net\ExamPracticeSheet\ExamPracticeSheet\obj\Debug\net6.0-windows\ExamPracticeSheet.vbproj.CoreCompileInputs.cache

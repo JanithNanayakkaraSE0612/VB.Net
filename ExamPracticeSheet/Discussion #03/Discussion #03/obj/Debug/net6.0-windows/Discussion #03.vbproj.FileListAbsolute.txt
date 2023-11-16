@@ -1,0 +1,16 @@
+C:\Project\VB.Net\ExamPracticeSheet\Discussion #03\Discussion #03\bin\Debug\net6.0-windows\Discussion #03.exe
+C:\Project\VB.Net\ExamPracticeSheet\Discussion #03\Discussion #03\bin\Debug\net6.0-windows\Discussion #03.deps.json
+C:\Project\VB.Net\ExamPracticeSheet\Discussion #03\Discussion #03\bin\Debug\net6.0-windows\Discussion #03.runtimeconfig.json
+C:\Project\VB.Net\ExamPracticeSheet\Discussion #03\Discussion #03\bin\Debug\net6.0-windows\Discussion #03.dll
+C:\Project\VB.Net\ExamPracticeSheet\Discussion #03\Discussion #03\bin\Debug\net6.0-windows\Discussion #03.pdb
+C:\Project\VB.Net\ExamPracticeSheet\Discussion #03\Discussion #03\obj\Debug\net6.0-windows\Discussion__03.Form1.resources
+C:\Project\VB.Net\ExamPracticeSheet\Discussion #03\Discussion #03\obj\Debug\net6.0-windows\Discussion #03.vbproj.GenerateResource.cache
+C:\Project\VB.Net\ExamPracticeSheet\Discussion #03\Discussion #03\obj\Debug\net6.0-windows\Discussion #03.GeneratedMSBuildEditorConfig.editorconfig
+C:\Project\VB.Net\ExamPracticeSheet\Discussion #03\Discussion #03\obj\Debug\net6.0-windows\Discussion #03.AssemblyInfoInputs.cache
+C:\Project\VB.Net\ExamPracticeSheet\Discussion #03\Discussion #03\obj\Debug\net6.0-windows\Discussion #03.AssemblyInfo.vb
+C:\Project\VB.Net\ExamPracticeSheet\Discussion #03\Discussion #03\obj\Debug\net6.0-windows\Discussion #03.vbproj.CoreCompileInputs.cache
+C:\Project\VB.Net\ExamPracticeSheet\Discussion #03\Discussion #03\obj\Debug\net6.0-windows\Discussion #03.dll
+C:\Project\VB.Net\ExamPracticeSheet\Discussion #03\Discussion #03\obj\Debug\net6.0-windows\refint\Discussion #03.dll
+C:\Project\VB.Net\ExamPracticeSheet\Discussion #03\Discussion #03\obj\Debug\net6.0-windows\Discussion #03.pdb
+C:\Project\VB.Net\ExamPracticeSheet\Discussion #03\Discussion #03\obj\Debug\net6.0-windows\Discussion #03.genruntimeconfig.cache
+C:\Project\VB.Net\ExamPracticeSheet\Discussion #03\Discussion #03\obj\Debug\net6.0-windows\ref\Discussion #03.dll
