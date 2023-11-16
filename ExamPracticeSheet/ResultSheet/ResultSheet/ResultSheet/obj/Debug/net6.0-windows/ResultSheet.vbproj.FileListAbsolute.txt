@@ -1,0 +1,16 @@
+C:\Project\VB.Net\ExamPracticeSheet\ResultSheet\ResultSheet\ResultSheet\obj\Debug\net6.0-windows\ResultSheet.resultSheet.resources
+C:\Project\VB.Net\ExamPracticeSheet\ResultSheet\ResultSheet\ResultSheet\obj\Debug\net6.0-windows\ResultSheet.vbproj.GenerateResource.cache
+C:\Project\VB.Net\ExamPracticeSheet\ResultSheet\ResultSheet\ResultSheet\obj\Debug\net6.0-windows\ResultSheet.GeneratedMSBuildEditorConfig.editorconfig
+C:\Project\VB.Net\ExamPracticeSheet\ResultSheet\ResultSheet\ResultSheet\obj\Debug\net6.0-windows\ResultSheet.AssemblyInfoInputs.cache
+C:\Project\VB.Net\ExamPracticeSheet\ResultSheet\ResultSheet\ResultSheet\obj\Debug\net6.0-windows\ResultSheet.AssemblyInfo.vb
+C:\Project\VB.Net\ExamPracticeSheet\ResultSheet\ResultSheet\ResultSheet\obj\Debug\net6.0-windows\ResultSheet.vbproj.CoreCompileInputs.cache
+C:\Project\VB.Net\ExamPracticeSheet\ResultSheet\ResultSheet\ResultSheet\bin\Debug\net6.0-windows\ResultSheet.exe
+C:\Project\VB.Net\ExamPracticeSheet\ResultSheet\ResultSheet\ResultSheet\bin\Debug\net6.0-windows\ResultSheet.deps.json
+C:\Project\VB.Net\ExamPracticeSheet\ResultSheet\ResultSheet\ResultSheet\bin\Debug\net6.0-windows\ResultSheet.runtimeconfig.json
+C:\Project\VB.Net\ExamPracticeSheet\ResultSheet\ResultSheet\ResultSheet\bin\Debug\net6.0-windows\ResultSheet.dll
+C:\Project\VB.Net\ExamPracticeSheet\ResultSheet\ResultSheet\ResultSheet\bin\Debug\net6.0-windows\ResultSheet.pdb
+C:\Project\VB.Net\ExamPracticeSheet\ResultSheet\ResultSheet\ResultSheet\obj\Debug\net6.0-windows\ResultSheet.dll
+C:\Project\VB.Net\ExamPracticeSheet\ResultSheet\ResultSheet\ResultSheet\obj\Debug\net6.0-windows\refint\ResultSheet.dll
+C:\Project\VB.Net\ExamPracticeSheet\ResultSheet\ResultSheet\ResultSheet\obj\Debug\net6.0-windows\ResultSheet.pdb
+C:\Project\VB.Net\ExamPracticeSheet\ResultSheet\ResultSheet\ResultSheet\obj\Debug\net6.0-windows\ResultSheet.genruntimeconfig.cache
+C:\Project\VB.Net\ExamPracticeSheet\ResultSheet\ResultSheet\ResultSheet\obj\Debug\net6.0-windows\ref\ResultSheet.dll
