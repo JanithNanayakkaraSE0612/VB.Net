@@ -27,11 +27,11 @@ Partial Class Form1
         Button3 = New Button()
         txtBasicSalary = New TextBox()
         txtOH = New TextBox()
-        TextBox3 = New TextBox()
-        TextBox4 = New TextBox()
-        TextBox5 = New TextBox()
-        TextBox6 = New TextBox()
-        TextBox7 = New TextBox()
+        txtSex = New TextBox()
+        txtOR = New TextBox()
+        txtAllow1 = New TextBox()
+        txtAllow2 = New TextBox()
+        txtNetSal = New TextBox()
         Label1 = New Label()
         Label2 = New Label()
         Label3 = New Label()
@@ -87,45 +87,45 @@ Partial Class Form1
         txtOH.Size = New Size(125, 31)
         txtOH.TabIndex = 4
         ' 
-        ' TextBox3
+        ' txtSex
         ' 
-        TextBox3.Font = New Font("Segoe UI", 10.8F, FontStyle.Regular, GraphicsUnit.Point)
-        TextBox3.Location = New Point(277, 150)
-        TextBox3.Name = "TextBox3"
-        TextBox3.Size = New Size(125, 31)
-        TextBox3.TabIndex = 5
+        txtSex.Font = New Font("Segoe UI", 10.8F, FontStyle.Regular, GraphicsUnit.Point)
+        txtSex.Location = New Point(277, 150)
+        txtSex.Name = "txtSex"
+        txtSex.Size = New Size(125, 31)
+        txtSex.TabIndex = 5
         ' 
-        ' TextBox4
+        ' txtOR
         ' 
-        TextBox4.Font = New Font("Segoe UI", 10.8F, FontStyle.Regular, GraphicsUnit.Point)
-        TextBox4.Location = New Point(277, 203)
-        TextBox4.Name = "TextBox4"
-        TextBox4.Size = New Size(125, 31)
-        TextBox4.TabIndex = 6
+        txtOR.Font = New Font("Segoe UI", 10.8F, FontStyle.Regular, GraphicsUnit.Point)
+        txtOR.Location = New Point(277, 203)
+        txtOR.Name = "txtOR"
+        txtOR.Size = New Size(125, 31)
+        txtOR.TabIndex = 6
         ' 
-        ' TextBox5
+        ' txtAllow1
         ' 
-        TextBox5.Font = New Font("Segoe UI", 10.8F, FontStyle.Regular, GraphicsUnit.Point)
-        TextBox5.Location = New Point(277, 249)
-        TextBox5.Name = "TextBox5"
-        TextBox5.Size = New Size(125, 31)
-        TextBox5.TabIndex = 7
+        txtAllow1.Font = New Font("Segoe UI", 10.8F, FontStyle.Regular, GraphicsUnit.Point)
+        txtAllow1.Location = New Point(277, 249)
+        txtAllow1.Name = "txtAllow1"
+        txtAllow1.Size = New Size(125, 31)
+        txtAllow1.TabIndex = 7
         ' 
-        ' TextBox6
+        ' txtAllow2
         ' 
-        TextBox6.Font = New Font("Segoe UI", 10.8F, FontStyle.Regular, GraphicsUnit.Point)
-        TextBox6.Location = New Point(277, 295)
-        TextBox6.Name = "TextBox6"
-        TextBox6.Size = New Size(125, 31)
-        TextBox6.TabIndex = 8
+        txtAllow2.Font = New Font("Segoe UI", 10.8F, FontStyle.Regular, GraphicsUnit.Point)
+        txtAllow2.Location = New Point(277, 295)
+        txtAllow2.Name = "txtAllow2"
+        txtAllow2.Size = New Size(125, 31)
+        txtAllow2.TabIndex = 8
         ' 
-        ' TextBox7
+        ' txtNetSal
         ' 
-        TextBox7.Font = New Font("Segoe UI", 10.8F, FontStyle.Regular, GraphicsUnit.Point)
-        TextBox7.Location = New Point(277, 340)
-        TextBox7.Name = "TextBox7"
-        TextBox7.Size = New Size(125, 31)
-        TextBox7.TabIndex = 9
+        txtNetSal.Font = New Font("Segoe UI", 10.8F, FontStyle.Regular, GraphicsUnit.Point)
+        txtNetSal.Location = New Point(277, 340)
+        txtNetSal.Name = "txtNetSal"
+        txtNetSal.Size = New Size(125, 31)
+        txtNetSal.TabIndex = 9
         ' 
         ' Label1
         ' 
@@ -209,11 +209,11 @@ Partial Class Form1
         Controls.Add(Label3)
         Controls.Add(Label2)
         Controls.Add(Label1)
-        Controls.Add(TextBox7)
-        Controls.Add(TextBox6)
-        Controls.Add(TextBox5)
-        Controls.Add(TextBox4)
-        Controls.Add(TextBox3)
+        Controls.Add(txtNetSal)
+        Controls.Add(txtAllow2)
+        Controls.Add(txtAllow1)
+        Controls.Add(txtOR)
+        Controls.Add(txtSex)
         Controls.Add(txtOH)
         Controls.Add(txtBasicSalary)
         Controls.Add(Button3)
@@ -230,11 +230,11 @@ Partial Class Form1
     Friend WithEvents Button3 As Button
     Friend WithEvents txtBasicSalary As TextBox
     Friend WithEvents txtOH As TextBox
-    Friend WithEvents TextBox3 As TextBox
-    Friend WithEvents TextBox4 As TextBox
-    Friend WithEvents TextBox5 As TextBox
-    Friend WithEvents TextBox6 As TextBox
-    Friend WithEvents TextBox7 As TextBox
+    Friend WithEvents txtSex As TextBox
+    Friend WithEvents txtOR As TextBox
+    Friend WithEvents txtAllow1 As TextBox
+    Friend WithEvents txtAllow2 As TextBox
+    Friend WithEvents txtNetSal As TextBox
     Friend WithEvents Label1 As Label
     Friend WithEvents Label2 As Label
     Friend WithEvents Label3 As Label
