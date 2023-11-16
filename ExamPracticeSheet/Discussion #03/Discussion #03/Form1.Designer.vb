@@ -22,9 +22,9 @@ Partial Class Form1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
-        Button1 = New Button()
-        Button2 = New Button()
-        Button3 = New Button()
+        btnClear = New Button()
+        btnCalculate = New Button()
+        btnExit = New Button()
         txtBasicSalary = New TextBox()
         txtOH = New TextBox()
         txtSex = New TextBox()
@@ -41,35 +41,35 @@ Partial Class Form1
         Label7 = New Label()
         SuspendLayout()
         ' 
-        ' Button1
+        ' btnClear
         ' 
-        Button1.Font = New Font("Segoe UI", 10.8F, FontStyle.Regular, GraphicsUnit.Point)
-        Button1.Location = New Point(526, 112)
-        Button1.Name = "Button1"
-        Button1.Size = New Size(94, 29)
-        Button1.TabIndex = 0
-        Button1.Text = "Clear"
-        Button1.UseVisualStyleBackColor = True
+        btnClear.Font = New Font("Segoe UI", 10.8F, FontStyle.Regular, GraphicsUnit.Point)
+        btnClear.Location = New Point(526, 112)
+        btnClear.Name = "btnClear"
+        btnClear.Size = New Size(94, 29)
+        btnClear.TabIndex = 0
+        btnClear.Text = "Clear"
+        btnClear.UseVisualStyleBackColor = True
         ' 
-        ' Button2
+        ' btnCalculate
         ' 
-        Button2.Font = New Font("Segoe UI", 10.8F, FontStyle.Regular, GraphicsUnit.Point)
-        Button2.Location = New Point(526, 215)
-        Button2.Name = "Button2"
-        Button2.Size = New Size(94, 29)
-        Button2.TabIndex = 1
-        Button2.Text = "Button2"
-        Button2.UseVisualStyleBackColor = True
+        btnCalculate.Font = New Font("Segoe UI", 10.8F, FontStyle.Regular, GraphicsUnit.Point)
+        btnCalculate.Location = New Point(526, 215)
+        btnCalculate.Name = "btnCalculate"
+        btnCalculate.Size = New Size(94, 29)
+        btnCalculate.TabIndex = 1
+        btnCalculate.Text = "Calculate"
+        btnCalculate.UseVisualStyleBackColor = True
         ' 
-        ' Button3
+        ' btnExit
         ' 
-        Button3.Font = New Font("Segoe UI", 10.8F, FontStyle.Regular, GraphicsUnit.Point)
-        Button3.Location = New Point(526, 310)
-        Button3.Name = "Button3"
-        Button3.Size = New Size(94, 29)
-        Button3.TabIndex = 2
-        Button3.Text = "Button3"
-        Button3.UseVisualStyleBackColor = True
+        btnExit.Font = New Font("Segoe UI", 10.8F, FontStyle.Regular, GraphicsUnit.Point)
+        btnExit.Location = New Point(526, 310)
+        btnExit.Name = "btnExit"
+        btnExit.Size = New Size(94, 29)
+        btnExit.TabIndex = 2
+        btnExit.Text = "Exit"
+        btnExit.UseVisualStyleBackColor = True
         ' 
         ' txtBasicSalary
         ' 
@@ -216,18 +216,18 @@ Partial Class Form1
         Controls.Add(txtSex)
         Controls.Add(txtOH)
         Controls.Add(txtBasicSalary)
-        Controls.Add(Button3)
-        Controls.Add(Button2)
-        Controls.Add(Button1)
+        Controls.Add(btnExit)
+        Controls.Add(btnCalculate)
+        Controls.Add(btnClear)
         Name = "Form1"
         Text = "Basic Salary"
         ResumeLayout(False)
         PerformLayout()
     End Sub
 
-    Friend WithEvents Button1 As Button
-    Friend WithEvents Button2 As Button
-    Friend WithEvents Button3 As Button
+    Friend WithEvents btnClear As Button
+    Friend WithEvents btnCalculate As Button
+    Friend WithEvents btnExit As Button
     Friend WithEvents txtBasicSalary As TextBox
     Friend WithEvents txtOH As TextBox
     Friend WithEvents txtSex As TextBox
