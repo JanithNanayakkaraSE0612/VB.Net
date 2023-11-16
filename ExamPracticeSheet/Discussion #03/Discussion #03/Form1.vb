@@ -35,8 +35,14 @@
         Else
             all1 = 500
         End If
-        all1 = Val(txtAllow1.Text)
-        all2 = Val(txtAllow2.Text)
+
+        If sex = "M" Then
+            all2 = 2000
+        Else
+            all2 = 1000
+        End If
+        all1 = Val(txtAllow1.Text) Then
+            all2 = Val(txtAllow2.Text)
         net = Val(txtNetSal.Text)
     End Sub
 End Class
