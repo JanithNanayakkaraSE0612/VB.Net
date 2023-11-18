@@ -28,11 +28,11 @@
         NS = BS - Ded
         If (NS < 10000) Then
             txtB.Text = "50"
-        ElseIf (10000 >= NS) Then
+        ElseIf (NS >= 10000) Then
             txtB.Text = "125"
-        ElseIf (15000 >= NS) Then
+        ElseIf (NS >= 15000) Then
             txtB.Text = "150"
-        ElseIf (20000 >= NS) Then
+        ElseIf (NS >= 20000) Then
             txtB.Text = "200"
         End If
     End Sub
