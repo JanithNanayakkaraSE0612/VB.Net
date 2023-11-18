@@ -16,6 +16,9 @@
     End Sub
 
     Private Sub btnNetSalary_Click(sender As Object, e As EventArgs) Handles btnNetSalary.Click
-
+        BS = Val(txtBS.Text)
+        Ded = Val(txtDed.Text)
+        NS = BS - Ded
+        txtNS.Text = NS
     End Sub
 End Class
