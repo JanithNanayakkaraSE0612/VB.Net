@@ -29,9 +29,9 @@ Partial Class Form1
         txtBS = New TextBox()
         TextBox3 = New TextBox()
         GroupBox1 = New GroupBox()
-        RadioButton1 = New RadioButton()
-        RadioButton2 = New RadioButton()
         RadioButton3 = New RadioButton()
+        RadioButton2 = New RadioButton()
+        RadioButton1 = New RadioButton()
         btnCalculate = New Button()
         btnExits = New Button()
         GroupBox1.SuspendLayout()
@@ -87,6 +87,7 @@ Partial Class Form1
         ' 
         ' GroupBox1
         ' 
+        GroupBox1.BackColor = SystemColors.GradientActiveCaption
         GroupBox1.Controls.Add(RadioButton3)
         GroupBox1.Controls.Add(RadioButton2)
         GroupBox1.Controls.Add(RadioButton1)
@@ -97,16 +98,16 @@ Partial Class Form1
         GroupBox1.TabStop = False
         GroupBox1.Text = "Department"
         ' 
-        ' RadioButton1
+        ' RadioButton3
         ' 
-        RadioButton1.AutoSize = True
-        RadioButton1.Location = New Point(32, 39)
-        RadioButton1.Name = "RadioButton1"
-        RadioButton1.Size = New Size(88, 24)
-        RadioButton1.TabIndex = 0
-        RadioButton1.TabStop = True
-        RadioButton1.Text = "Acc (5%)"
-        RadioButton1.UseVisualStyleBackColor = True
+        RadioButton3.AutoSize = True
+        RadioButton3.Location = New Point(32, 95)
+        RadioButton3.Name = "RadioButton3"
+        RadioButton3.Size = New Size(94, 24)
+        RadioButton3.TabIndex = 2
+        RadioButton3.TabStop = True
+        RadioButton3.Text = "Pro (15%)"
+        RadioButton3.UseVisualStyleBackColor = True
         ' 
         ' RadioButton2
         ' 
@@ -119,16 +120,16 @@ Partial Class Form1
         RadioButton2.Text = "Com (10%)"
         RadioButton2.UseVisualStyleBackColor = True
         ' 
-        ' RadioButton3
+        ' RadioButton1
         ' 
-        RadioButton3.AutoSize = True
-        RadioButton3.Location = New Point(32, 95)
-        RadioButton3.Name = "RadioButton3"
-        RadioButton3.Size = New Size(94, 24)
-        RadioButton3.TabIndex = 2
-        RadioButton3.TabStop = True
-        RadioButton3.Text = "Pro (15%)"
-        RadioButton3.UseVisualStyleBackColor = True
+        RadioButton1.AutoSize = True
+        RadioButton1.Location = New Point(32, 39)
+        RadioButton1.Name = "RadioButton1"
+        RadioButton1.Size = New Size(88, 24)
+        RadioButton1.TabIndex = 0
+        RadioButton1.TabStop = True
+        RadioButton1.Text = "Acc (5%)"
+        RadioButton1.UseVisualStyleBackColor = True
         ' 
         ' btnCalculate
         ' 
@@ -152,6 +153,7 @@ Partial Class Form1
         ' 
         AutoScaleDimensions = New SizeF(8F, 20F)
         AutoScaleMode = AutoScaleMode.Font
+        BackColor = SystemColors.Info
         ClientSize = New Size(620, 450)
         Controls.Add(btnExits)
         Controls.Add(btnCalculate)
