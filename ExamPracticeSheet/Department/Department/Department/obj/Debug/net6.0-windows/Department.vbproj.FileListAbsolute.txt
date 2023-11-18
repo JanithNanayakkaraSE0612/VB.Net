@@ -1,0 +1,16 @@
+C:\Project\VB.Net\ExamPracticeSheet\Department\Department\Department\bin\Debug\net6.0-windows\Department.exe
+C:\Project\VB.Net\ExamPracticeSheet\Department\Department\Department\bin\Debug\net6.0-windows\Department.deps.json
+C:\Project\VB.Net\ExamPracticeSheet\Department\Department\Department\bin\Debug\net6.0-windows\Department.runtimeconfig.json
+C:\Project\VB.Net\ExamPracticeSheet\Department\Department\Department\bin\Debug\net6.0-windows\Department.dll
+C:\Project\VB.Net\ExamPracticeSheet\Department\Department\Department\bin\Debug\net6.0-windows\Department.pdb
+C:\Project\VB.Net\ExamPracticeSheet\Department\Department\Department\obj\Debug\net6.0-windows\Department.Form1.resources
+C:\Project\VB.Net\ExamPracticeSheet\Department\Department\Department\obj\Debug\net6.0-windows\Department.vbproj.GenerateResource.cache
+C:\Project\VB.Net\ExamPracticeSheet\Department\Department\Department\obj\Debug\net6.0-windows\Department.GeneratedMSBuildEditorConfig.editorconfig
+C:\Project\VB.Net\ExamPracticeSheet\Department\Department\Department\obj\Debug\net6.0-windows\Department.AssemblyInfoInputs.cache
+C:\Project\VB.Net\ExamPracticeSheet\Department\Department\Department\obj\Debug\net6.0-windows\Department.AssemblyInfo.vb
+C:\Project\VB.Net\ExamPracticeSheet\Department\Department\Department\obj\Debug\net6.0-windows\Department.vbproj.CoreCompileInputs.cache
+C:\Project\VB.Net\ExamPracticeSheet\Department\Department\Department\obj\Debug\net6.0-windows\Department.dll
+C:\Project\VB.Net\ExamPracticeSheet\Department\Department\Department\obj\Debug\net6.0-windows\refint\Department.dll
+C:\Project\VB.Net\ExamPracticeSheet\Department\Department\Department\obj\Debug\net6.0-windows\Department.pdb
+C:\Project\VB.Net\ExamPracticeSheet\Department\Department\Department\obj\Debug\net6.0-windows\Department.genruntimeconfig.cache
+C:\Project\VB.Net\ExamPracticeSheet\Department\Department\Department\obj\Debug\net6.0-windows\ref\Department.dll

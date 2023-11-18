@@ -27,11 +27,11 @@ Partial Class Form1
         Label3 = New Label()
         txtNo = New TextBox()
         txtBS = New TextBox()
-        TextBox3 = New TextBox()
+        txtNS = New TextBox()
         GroupBox1 = New GroupBox()
-        RadioButton3 = New RadioButton()
-        RadioButton2 = New RadioButton()
-        RadioButton1 = New RadioButton()
+        rdoPro = New RadioButton()
+        rdoCom = New RadioButton()
+        rdoAcc = New RadioButton()
         btnCalculate = New Button()
         btnExits = New Button()
         GroupBox1.SuspendLayout()
@@ -60,9 +60,9 @@ Partial Class Form1
         Label3.AutoSize = True
         Label3.Location = New Point(96, 296)
         Label3.Name = "Label3"
-        Label3.Size = New Size(53, 20)
+        Label3.Size = New Size(83, 20)
         Label3.TabIndex = 2
-        Label3.Text = "Label3"
+        Label3.Text = "New Salary"
         ' 
         ' txtNo
         ' 
@@ -78,19 +78,19 @@ Partial Class Form1
         txtBS.Size = New Size(125, 27)
         txtBS.TabIndex = 4
         ' 
-        ' TextBox3
+        ' txtNS
         ' 
-        TextBox3.Location = New Point(224, 296)
-        TextBox3.Name = "TextBox3"
-        TextBox3.Size = New Size(125, 27)
-        TextBox3.TabIndex = 5
+        txtNS.Location = New Point(224, 296)
+        txtNS.Name = "txtNS"
+        txtNS.Size = New Size(125, 27)
+        txtNS.TabIndex = 5
         ' 
         ' GroupBox1
         ' 
         GroupBox1.BackColor = SystemColors.GradientActiveCaption
-        GroupBox1.Controls.Add(RadioButton3)
-        GroupBox1.Controls.Add(RadioButton2)
-        GroupBox1.Controls.Add(RadioButton1)
+        GroupBox1.Controls.Add(rdoPro)
+        GroupBox1.Controls.Add(rdoCom)
+        GroupBox1.Controls.Add(rdoAcc)
         GroupBox1.Location = New Point(32, 125)
         GroupBox1.Name = "GroupBox1"
         GroupBox1.Size = New Size(250, 125)
@@ -98,38 +98,38 @@ Partial Class Form1
         GroupBox1.TabStop = False
         GroupBox1.Text = "Department"
         ' 
-        ' RadioButton3
+        ' rdoPro
         ' 
-        RadioButton3.AutoSize = True
-        RadioButton3.Location = New Point(32, 95)
-        RadioButton3.Name = "RadioButton3"
-        RadioButton3.Size = New Size(94, 24)
-        RadioButton3.TabIndex = 2
-        RadioButton3.TabStop = True
-        RadioButton3.Text = "Pro (15%)"
-        RadioButton3.UseVisualStyleBackColor = True
+        rdoPro.AutoSize = True
+        rdoPro.Location = New Point(32, 95)
+        rdoPro.Name = "rdoPro"
+        rdoPro.Size = New Size(94, 24)
+        rdoPro.TabIndex = 2
+        rdoPro.TabStop = True
+        rdoPro.Text = "Pro (15%)"
+        rdoPro.UseVisualStyleBackColor = True
         ' 
-        ' RadioButton2
+        ' rdoCom
         ' 
-        RadioButton2.AutoSize = True
-        RadioButton2.Location = New Point(32, 65)
-        RadioButton2.Name = "RadioButton2"
-        RadioButton2.Size = New Size(103, 24)
-        RadioButton2.TabIndex = 1
-        RadioButton2.TabStop = True
-        RadioButton2.Text = "Com (10%)"
-        RadioButton2.UseVisualStyleBackColor = True
+        rdoCom.AutoSize = True
+        rdoCom.Location = New Point(32, 65)
+        rdoCom.Name = "rdoCom"
+        rdoCom.Size = New Size(103, 24)
+        rdoCom.TabIndex = 1
+        rdoCom.TabStop = True
+        rdoCom.Text = "Com (10%)"
+        rdoCom.UseVisualStyleBackColor = True
         ' 
-        ' RadioButton1
+        ' rdoAcc
         ' 
-        RadioButton1.AutoSize = True
-        RadioButton1.Location = New Point(32, 39)
-        RadioButton1.Name = "RadioButton1"
-        RadioButton1.Size = New Size(88, 24)
-        RadioButton1.TabIndex = 0
-        RadioButton1.TabStop = True
-        RadioButton1.Text = "Acc (5%)"
-        RadioButton1.UseVisualStyleBackColor = True
+        rdoAcc.AutoSize = True
+        rdoAcc.Location = New Point(32, 39)
+        rdoAcc.Name = "rdoAcc"
+        rdoAcc.Size = New Size(88, 24)
+        rdoAcc.TabIndex = 0
+        rdoAcc.TabStop = True
+        rdoAcc.Text = "Acc (5%)"
+        rdoAcc.UseVisualStyleBackColor = True
         ' 
         ' btnCalculate
         ' 
@@ -158,7 +158,7 @@ Partial Class Form1
         Controls.Add(btnExits)
         Controls.Add(btnCalculate)
         Controls.Add(GroupBox1)
-        Controls.Add(TextBox3)
+        Controls.Add(txtNS)
         Controls.Add(txtBS)
         Controls.Add(txtNo)
         Controls.Add(Label3)
@@ -177,11 +177,11 @@ Partial Class Form1
     Friend WithEvents Label3 As Label
     Friend WithEvents txtNo As TextBox
     Friend WithEvents txtBS As TextBox
-    Friend WithEvents TextBox3 As TextBox
+    Friend WithEvents txtNS As TextBox
     Friend WithEvents GroupBox1 As GroupBox
-    Friend WithEvents RadioButton3 As RadioButton
-    Friend WithEvents RadioButton2 As RadioButton
-    Friend WithEvents RadioButton1 As RadioButton
+    Friend WithEvents rdoPro As RadioButton
+    Friend WithEvents rdoCom As RadioButton
+    Friend WithEvents rdoAcc As RadioButton
     Friend WithEvents btnCalculate As Button
     Friend WithEvents btnExits As Button
 End Class
