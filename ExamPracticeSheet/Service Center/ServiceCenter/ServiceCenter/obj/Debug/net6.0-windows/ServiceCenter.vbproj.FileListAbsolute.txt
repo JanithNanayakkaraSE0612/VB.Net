@@ -1,0 +1,16 @@
+C:\Project\VB.Net\ExamPracticeSheet\Service Center\ServiceCenter\ServiceCenter\bin\Debug\net6.0-windows\ServiceCenter.exe
+C:\Project\VB.Net\ExamPracticeSheet\Service Center\ServiceCenter\ServiceCenter\bin\Debug\net6.0-windows\ServiceCenter.deps.json
+C:\Project\VB.Net\ExamPracticeSheet\Service Center\ServiceCenter\ServiceCenter\bin\Debug\net6.0-windows\ServiceCenter.runtimeconfig.json
+C:\Project\VB.Net\ExamPracticeSheet\Service Center\ServiceCenter\ServiceCenter\bin\Debug\net6.0-windows\ServiceCenter.dll
+C:\Project\VB.Net\ExamPracticeSheet\Service Center\ServiceCenter\ServiceCenter\bin\Debug\net6.0-windows\ServiceCenter.pdb
+C:\Project\VB.Net\ExamPracticeSheet\Service Center\ServiceCenter\ServiceCenter\obj\Debug\net6.0-windows\ServiceCenter.Form1.resources
+C:\Project\VB.Net\ExamPracticeSheet\Service Center\ServiceCenter\ServiceCenter\obj\Debug\net6.0-windows\ServiceCenter.vbproj.GenerateResource.cache
+C:\Project\VB.Net\ExamPracticeSheet\Service Center\ServiceCenter\ServiceCenter\obj\Debug\net6.0-windows\ServiceCenter.GeneratedMSBuildEditorConfig.editorconfig
+C:\Project\VB.Net\ExamPracticeSheet\Service Center\ServiceCenter\ServiceCenter\obj\Debug\net6.0-windows\ServiceCenter.AssemblyInfoInputs.cache
+C:\Project\VB.Net\ExamPracticeSheet\Service Center\ServiceCenter\ServiceCenter\obj\Debug\net6.0-windows\ServiceCenter.AssemblyInfo.vb
+C:\Project\VB.Net\ExamPracticeSheet\Service Center\ServiceCenter\ServiceCenter\obj\Debug\net6.0-windows\ServiceCenter.vbproj.CoreCompileInputs.cache
+C:\Project\VB.Net\ExamPracticeSheet\Service Center\ServiceCenter\ServiceCenter\obj\Debug\net6.0-windows\ServiceCenter.dll
+C:\Project\VB.Net\ExamPracticeSheet\Service Center\ServiceCenter\ServiceCenter\obj\Debug\net6.0-windows\refint\ServiceCenter.dll
+C:\Project\VB.Net\ExamPracticeSheet\Service Center\ServiceCenter\ServiceCenter\obj\Debug\net6.0-windows\ServiceCenter.pdb
+C:\Project\VB.Net\ExamPracticeSheet\Service Center\ServiceCenter\ServiceCenter\obj\Debug\net6.0-windows\ServiceCenter.genruntimeconfig.cache
+C:\Project\VB.Net\ExamPracticeSheet\Service Center\ServiceCenter\ServiceCenter\obj\Debug\net6.0-windows\ref\ServiceCenter.dll
