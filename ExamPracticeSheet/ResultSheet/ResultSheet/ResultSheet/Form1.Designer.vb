@@ -38,10 +38,10 @@ Partial Class resultSheet
         txtAvg = New TextBox()
         txtRes = New TextBox()
         txtGrade = New TextBox()
-        Button1 = New Button()
-        Button2 = New Button()
-        Button3 = New Button()
-        Button4 = New Button()
+        btnTotal = New Button()
+        btnAverage = New Button()
+        btnResult = New Button()
+        btnGrade = New Button()
         btnExit = New Button()
         btnClear = New Button()
         SuspendLayout()
@@ -174,41 +174,41 @@ Partial Class resultSheet
         txtGrade.Size = New Size(125, 27)
         txtGrade.TabIndex = 17
         ' 
-        ' Button1
+        ' btnTotal
         ' 
-        Button1.Location = New Point(612, 157)
-        Button1.Name = "Button1"
-        Button1.Size = New Size(94, 29)
-        Button1.TabIndex = 18
-        Button1.Text = "Total"
-        Button1.UseVisualStyleBackColor = True
+        btnTotal.Location = New Point(612, 159)
+        btnTotal.Name = "btnTotal"
+        btnTotal.Size = New Size(94, 29)
+        btnTotal.TabIndex = 18
+        btnTotal.Text = "Total"
+        btnTotal.UseVisualStyleBackColor = True
         ' 
-        ' Button2
+        ' btnAverage
         ' 
-        Button2.Location = New Point(612, 231)
-        Button2.Name = "Button2"
-        Button2.Size = New Size(94, 29)
-        Button2.TabIndex = 19
-        Button2.Text = "Average"
-        Button2.UseVisualStyleBackColor = True
+        btnAverage.Location = New Point(612, 231)
+        btnAverage.Name = "btnAverage"
+        btnAverage.Size = New Size(94, 29)
+        btnAverage.TabIndex = 19
+        btnAverage.Text = "Average"
+        btnAverage.UseVisualStyleBackColor = True
         ' 
-        ' Button3
+        ' btnResult
         ' 
-        Button3.Location = New Point(612, 311)
-        Button3.Name = "Button3"
-        Button3.Size = New Size(94, 29)
-        Button3.TabIndex = 20
-        Button3.Text = "Result"
-        Button3.UseVisualStyleBackColor = True
+        btnResult.Location = New Point(612, 311)
+        btnResult.Name = "btnResult"
+        btnResult.Size = New Size(94, 29)
+        btnResult.TabIndex = 20
+        btnResult.Text = "Result"
+        btnResult.UseVisualStyleBackColor = True
         ' 
-        ' Button4
+        ' btnGrade
         ' 
-        Button4.Location = New Point(612, 375)
-        Button4.Name = "Button4"
-        Button4.Size = New Size(94, 29)
-        Button4.TabIndex = 21
-        Button4.Text = "Grade"
-        Button4.UseVisualStyleBackColor = True
+        btnGrade.Location = New Point(612, 375)
+        btnGrade.Name = "btnGrade"
+        btnGrade.Size = New Size(94, 29)
+        btnGrade.TabIndex = 21
+        btnGrade.Text = "Grade"
+        btnGrade.UseVisualStyleBackColor = True
         ' 
         ' btnExit
         ' 
@@ -235,10 +235,10 @@ Partial Class resultSheet
         ClientSize = New Size(800, 450)
         Controls.Add(btnClear)
         Controls.Add(btnExit)
-        Controls.Add(Button4)
-        Controls.Add(Button3)
-        Controls.Add(Button2)
-        Controls.Add(Button1)
+        Controls.Add(btnGrade)
+        Controls.Add(btnResult)
+        Controls.Add(btnAverage)
+        Controls.Add(btnTotal)
         Controls.Add(txtGrade)
         Controls.Add(txtRes)
         Controls.Add(txtAvg)
@@ -277,10 +277,10 @@ Partial Class resultSheet
     Friend WithEvents txtAvg As TextBox
     Friend WithEvents txtRes As TextBox
     Friend WithEvents txtGrade As TextBox
-    Friend WithEvents Button1 As Button
-    Friend WithEvents Button2 As Button
-    Friend WithEvents Button3 As Button
-    Friend WithEvents Button4 As Button
+    Friend WithEvents btnTotal As Button
+    Friend WithEvents btnAverage As Button
+    Friend WithEvents btnResult As Button
+    Friend WithEvents btnGrade As Button
     Friend WithEvents btnExit As Button
     Friend WithEvents btnClear As Button
 End Class
