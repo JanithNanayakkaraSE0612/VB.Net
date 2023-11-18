@@ -57,17 +57,11 @@ Public Class resultSheet
     End Sub
 
     Private Sub btnGrade_Click(sender As Object, e As EventArgs) Handles btnGrade.Click
-        txtB = Val(txtBio.Text)
-        txtC = Val(txtChe.Text)
-        txtP = Val(txtPhy.Text)
-        txtE = Val(txtEng.Text)
-        txtT = txtB + txtC + txtP + txtE
-        txtA = txtT / 4
         If (txtA >= 75) Then
             txtGrade.Text = "A"
         ElseIf (txtA >= 65) Then
             txtGrade.Text = "B"
-        ElseIf If(txtA >= 50) Then
+        ElseIf (txtA >= 50) Then
             txtGrade.Text = "C"
         Else
             txtGrade.Text = "F"
