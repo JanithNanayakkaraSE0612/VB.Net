@@ -21,4 +21,19 @@
         NS = BS - Ded
         txtNS.Text = NS
     End Sub
+
+    Private Sub btnBonus_Click(sender As Object, e As EventArgs) Handles btnBonus.Click
+        BS = Val(txtBS.Text)
+        Ded = Val(txtDed.Text)
+        NS = BS - Ded
+        If (NS < 10000) Then
+            txtB.Text = "50"
+        ElseIf (10000 >= NS) Then
+            txtB.Text = "125"
+        ElseIf (15000 >= NS) Then
+            txtB.Text = "150"
+        ElseIf (20000 >= NS) Then
+            txtB.Text = "200"
+        End If
+    End Sub
 End Class
