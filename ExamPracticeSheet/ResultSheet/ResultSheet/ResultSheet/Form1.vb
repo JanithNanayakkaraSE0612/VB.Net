@@ -6,4 +6,9 @@
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
 
     End Sub
+
+    Private Sub btnExit_Click(sender As Object, e As EventArgs) Handles btnExit.Click
+        Close()
+
+    End Sub
 End Class

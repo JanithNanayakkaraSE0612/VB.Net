@@ -42,6 +42,7 @@ Partial Class resultSheet
         Button2 = New Button()
         Button3 = New Button()
         Button4 = New Button()
+        btnExit = New Button()
         SuspendLayout()
         ' 
         ' Label1
@@ -208,11 +209,21 @@ Partial Class resultSheet
         Button4.Text = "Grade"
         Button4.UseVisualStyleBackColor = True
         ' 
+        ' btnExit
+        ' 
+        btnExit.Location = New Point(612, 101)
+        btnExit.Name = "btnExit"
+        btnExit.Size = New Size(94, 29)
+        btnExit.TabIndex = 22
+        btnExit.Text = "Exit"
+        btnExit.UseVisualStyleBackColor = True
+        ' 
         ' resultSheet
         ' 
         AutoScaleDimensions = New SizeF(8F, 20F)
         AutoScaleMode = AutoScaleMode.Font
         ClientSize = New Size(800, 450)
+        Controls.Add(btnExit)
         Controls.Add(Button4)
         Controls.Add(Button3)
         Controls.Add(Button2)
@@ -259,4 +270,5 @@ Partial Class resultSheet
     Friend WithEvents Button2 As Button
     Friend WithEvents Button3 As Button
     Friend WithEvents Button4 As Button
+    Friend WithEvents btnExit As Button
 End Class
