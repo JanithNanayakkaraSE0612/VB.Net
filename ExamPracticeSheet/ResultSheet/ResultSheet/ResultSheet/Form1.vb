@@ -1,4 +1,6 @@
-﻿Public Class resultSheet
+﻿Imports System.Diagnostics.Eventing.Reader
+
+Public Class resultSheet
     Dim txtB, txtC, txtP, txtE, txtT, txtA, txtR, txtG As Double
     Private Sub Label1_Click(sender As Object, e As EventArgs) Handles Label1.Click
 
@@ -38,5 +40,19 @@
         txtT = txtB + txtC + txtP + txtE
         txtTot.Text = txtT
 
+    End Sub
+
+    Private Sub btnResult_Click(sender As Object, e As EventArgs) Handles btnResult.Click
+        txtB = Val(txtBio.Text)
+        txtC = Val(txtChe.Text)
+        txtP = Val(txtPhy.Text)
+        txtE = Val(txtEng.Text)
+        txtT = txtB + txtC + txtP + txtE
+        txtA = txtT / 4
+        If (txtA > 50) Then
+            txtRes.Text = "Pass"
+        Else
+            txtRes.Text = "Fail"
+        End If
     End Sub
 End Class
