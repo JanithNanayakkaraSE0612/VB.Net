@@ -5,7 +5,13 @@
     End Sub
 
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles btnAverage.Click
-
+        txtB = Val(txtBio.Text)
+        txtC = Val(txtChe.Text)
+        txtP = Val(txtPhy.Text)
+        txtE = Val(txtEng.Text)
+        txtT = txtB + txtC + txtP + txtE
+        txtA = txtT / 4
+        txtAvg.Text = txtA
     End Sub
 
     Private Sub btnExit_Click(sender As Object, e As EventArgs) Handles btnExit.Click
