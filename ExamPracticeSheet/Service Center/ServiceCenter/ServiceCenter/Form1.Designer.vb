@@ -37,6 +37,7 @@ Partial Class Form1
         txtDed = New TextBox()
         txtNS = New TextBox()
         txtB = New TextBox()
+        btnNetSalary = New Button()
         SuspendLayout()
         ' 
         ' Label1
@@ -162,11 +163,21 @@ Partial Class Form1
         txtB.Size = New Size(125, 27)
         txtB.TabIndex = 14
         ' 
+        ' btnNetSalary
+        ' 
+        btnNetSalary.Location = New Point(666, 294)
+        btnNetSalary.Name = "btnNetSalary"
+        btnNetSalary.Size = New Size(94, 29)
+        btnNetSalary.TabIndex = 15
+        btnNetSalary.Text = "Net Salary"
+        btnNetSalary.UseVisualStyleBackColor = True
+        ' 
         ' Form1
         ' 
         AutoScaleDimensions = New SizeF(8F, 20F)
         AutoScaleMode = AutoScaleMode.Font
         ClientSize = New Size(800, 450)
+        Controls.Add(btnNetSalary)
         Controls.Add(txtB)
         Controls.Add(txtNS)
         Controls.Add(txtDed)
@@ -203,4 +214,5 @@ Partial Class Form1
     Friend WithEvents txtDed As TextBox
     Friend WithEvents txtNS As TextBox
     Friend WithEvents txtB As TextBox
+    Friend WithEvents btnNetSalary As Button
 End Class

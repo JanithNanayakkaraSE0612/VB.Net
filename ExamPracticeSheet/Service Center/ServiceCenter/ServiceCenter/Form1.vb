@@ -14,4 +14,8 @@
         txtNS.Text = ""
         txtB.Text = ""
     End Sub
+
+    Private Sub btnNetSalary_Click(sender As Object, e As EventArgs) Handles btnNetSalary.Click
+
+    End Sub
 End Class
